@@ -1,110 +1,53 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Título do Curso ou Projeto</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# Mapa de projeto de estudos Backend
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+Um planejamento de estudo pode ser realizado por meio da IA. Neste documento vamos demonstrar passos necessários para avançar sair do básico nos estudos das linguagens .NET/C#, Entity Framework, SQL Server, Spring Boot e Node.
 
-</p>
+## Projeto realizado para um prazo de 120 dias
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+📆 Primeiro Mês - Arquitetura e fundamentos
+* Revisar SOLID aplicado a projetos reais
+* Estudar Clean Arquiteture
+* Criar um mini-projeto com camadas separadas (Domain, Aplication, Infra, API)
+* Comparar Clean Arquiteture na prática
+* Criar Middlewares
+* Introdução a logs estruturados
+  
+📆 Segundo Mês - DDD e APIs profissionais
+* Introdução ao DDD
+* Implementar entidades, agregados e value objects
+* Regras de negócio com DDD e Clean Arquiteture
+* Autenticação e Autorização com JWT
+* Documentação avançada do SWAGGER
 
-<br/>
-<br/>
+📆 Terceiro Mês - Teste avançado e projeto principal
+* Testes unitários com xUnit
+* Mocking com Moq
+* Testes de integração com WebApplicationFactory
+* Inicio do projeto principal
+* Criar docker-composer com API e Banco
+* Logs estruturados com Serilog
+  
+📆 Quarto Mês - Tecnologias alternativas, entrevistas e finalização de portifólio
+* Criar uma API simples com Spring Boot
+* Comparar padrões entre .NET, Java e Node
+* Finalizar projeto principal
+* Criar README profissional
+* Preparação para entrevistas técnicas
 
-## 💻 Sobre o Projeto
+-----------------
+### Projeto principal
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+Desenvolver uma plataforma de pedidos com Clean Arquiteture, DDD, Testes e Docker.
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+#### O que precisa entregar
+* API com CRUD completo e regras de negócio reais
+* Autenticação JWT
+* Testes unitários e de integração
+* Docker-compose rodando tudo
+* Documentação Swagger avançada
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
-
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
-
-- _Exemplo_:
-
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
-
-- [Outros pré-requisitos, se aplicável]
-
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
-
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
-
-- [Lista das habilidades principais a serem desenvolvidas]
-
-  - [Subhabilidades relacionadas, se aplicável]
-
-- _Exemplo_:
-  - Java
-    - Api Rest
-
-## 🎯 Objetivos e Resultados Esperados
-
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
-
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+#### Critérios
+* Código limpo e organizado em camadas
+* Testes cobrindo casos críticos
+* Logs estruturados
+* README explicando arquitetura e decisões técnicas
